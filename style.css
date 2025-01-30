@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -17,7 +18,6 @@ body {
   justify-content: space-around;
   align-items: center;
   margin: 25px;
-  font-family: 'Roboto', sans-serif;
 }
 
 .cuadrito {
@@ -25,7 +25,6 @@ body {
   width: 50px;
   height: 50px;
   border-radius: 8px;
-
 }
 
 .cuadrito img {
@@ -33,7 +32,6 @@ body {
   height: 35px;
   object-fit: contain;
   margin: 7px;
-
 }
 
 .boton {
@@ -49,7 +47,6 @@ body {
 h3 {
   color: rgb(48 66 105);
   font-weight: lighter;
-
 }
 
 .seleccionado {
@@ -61,7 +58,7 @@ footer {
   background-color: rgb(48 66 105);
 
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 14px;
   /* border-radius: 10px 10px 0px 0px; */
 
@@ -69,4 +66,18 @@ footer {
   margin-top: 50px;
   color: white;
   font-weight: bold;
+}
+
+.grupo2 {
+  display: flex;
+  gap: 5px;
+}
+
+footer h1 {
+  font-size: medium;
+  font-weight: normal;
+}
+
+.textoSubrayado {
+  text-decoration: underline;
 }
