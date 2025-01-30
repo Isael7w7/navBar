@@ -53,31 +53,3 @@ h3 {
   color: rgb(242 97 1);
   font-weight: bold;
 }
-
-footer {
-  background-color: rgb(48 66 105);
-
-  display: flex;
-  justify-content: space-around;
-  padding: 14px;
-  /* border-radius: 10px 10px 0px 0px; */
-
-  align-items: center;
-  margin-top: 50px;
-  color: white;
-  font-weight: bold;
-}
-
-.grupo2 {
-  display: flex;
-  gap: 5px;
-}
-
-footer h1 {
-  font-size: medium;
-  font-weight: normal;
-}
-
-.textoSubrayado {
-  text-decoration: underline;
-}
